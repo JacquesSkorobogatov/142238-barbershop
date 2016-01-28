@@ -37,23 +37,48 @@
 		<main class="container">
 			<h1>Средства для ухода</h1>
 			<div class="breadcrumbs">
-				<a href="#">Главная</a>
-				<a href="#">Магазин</a>
-				<a class="active" href="#">Средства для ухода</a>
+				<ul>
+					<li>
+						<a href="#">Главная</a>
+					</li>
+					<li>
+						<a href="#">Магазин</a>
+					</li>
+					<li>
+						<a class="active" href="#">Средства для ухода</a>
+					</li>					
+				</ul>
 			</div>
 			<div class="sorting">
 				<form class="sorting-form" action="https://echo.htmlacademy.ru" type="get">
 					<h2>Производители:</h2>
-					<label><input type="checkbox" name="baxter" checked>Baxter of California</label>
-					<label><input type="checkbox" name="natty">Mr Natty</label>
-					<label><input type="checkbox" name="suavecito" checked>Suavecito</label>
-					<label><input type="checkbox" name="malin">Malin+Goets</label>
-					<label><input type="checkbox" name="murray's">Murray's</label>
-					<label><input type="checkbox" name="american" checked>American crew</label>
+					<input type="checkbox" id="baxter" checked>
+					<label for="baxter">Baxter of California</label>
+
+					<input type="checkbox" id="natty">
+					<label for="natty">Mr Natty</label>
+
+					<input type="checkbox" id="suavecito" checked>
+					<label for="suavecito">Suavecito</label>
+
+					<input type="checkbox" id="malin">
+					<label for="malin">Malin+Goets</label>
+
+					<input type="checkbox" id="murray's">
+					<label for="murray's">Murray's</label>
+
+					<input type="checkbox" id="american" checked>
+					<label for="american">American crew</label>
 					<h2>Группы товаров:</h2>
-					<label><input type="radio" name="category" value="razor" checked>Бритвенные принадлежности</label>
-					<label><input type="radio" name="category" value="preparation">Средства для ухода</label>
-					<label><input type="radio" name="category" value="accessory">Аксессуары</label>
+					<input type="radio" id="razor" name="category" value="razor" checked>
+					<label for="razor">Бритвенные принадлежности</label>
+
+					<input type="radio" id="preparation" name="category" value="preparation">
+					<label for="preparation">Средства для ухода</label>
+
+					<input type="radio" id="accessory" name="category" value="accessory">
+					<label for="accessory">Аксессуары</label>
+					
 					<button class="btn" type="submit">Показать</button>
 				</form>				
 			</div>
@@ -137,10 +162,20 @@
 					</div>					
 				</article>
 				<div class="pages">
-					<a class="btn" href="#">1</a>
-					<a class="btn active" href="#">2</a>
-					<a class="btn" href="#">3</a>
-					<a class="btn" href="#">4</a>
+					<ul>
+						<li>
+							<a class="btn" href="#">1</a>
+						</li>
+						<li>
+							<a class="btn active" href="#">2</a>
+						</li>
+						<li>
+							<a class="btn" href="#">3</a>
+						</li>
+						<li>
+							<a class="btn" href="#">4</a>
+						</li>
+					</ul>					
 				</div>
 			</div>
 		</main>
